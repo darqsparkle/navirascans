@@ -22,7 +22,7 @@ const FooterSection = () => {
         </motion.div>
 
         {/* Email input (disabled appearance) */}
-        <motion.div
+        {/* <motion.div
           className="max-w-md mx-auto"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -45,7 +45,7 @@ const FooterSection = () => {
               Notify Me
             </button>
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Bottom separator and branding */}
         <motion.div
@@ -56,7 +56,7 @@ const FooterSection = () => {
           transition={{ duration: 1, delay: 0.4 }}
         >
           <p className="text-xs text-white/20 tracking-[0.2em] uppercase">
-            © 2026 — Precision Diagnostics
+            © 2026 — NAVIRA SCANS
           </p>
         </motion.div>
       </div>

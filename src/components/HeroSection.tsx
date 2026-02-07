@@ -15,9 +15,10 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: [0.25, 0.46, 0.45, 0.94] }}
         >
-          <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-8 font-medium">
-            Diagnostic Excellence
-          </p>
+          <h1 className="text-muted-foreground text-2xl tracking-[0.3em] uppercase mb-8 font-medium">
+            NAVIRA SCANS
+          </h1>
+          
         </motion.div>
 
         <motion.h1
